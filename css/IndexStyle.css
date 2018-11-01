@@ -26,17 +26,24 @@ body{
 .header{
     grid-column: 1 / span 12;
     border: 10px ;
-    border-style: double;
-    border-color: hotpink;
+    border-style: solid;
+    border-color: grey;
     padding: .1em 5% .1em;
-    color: yellow;
+    color: grey;
+    
+}
+
+.headertext {
+    color: grey;
+    text-decoration: underline;
     font-style: italic;
 }
 
 .span6{
     grid-column: span 6;
     border-style: solid;
-    border-color: hotpink;
+    border-color: blue;
+    padding: 1em 5% 1em;
 }
 
 
@@ -45,13 +52,11 @@ body{
 .menugrp {
     grid-column: 1 / span 12;
     color: #b84d00;
-    border: 5px solid;
     padding: 3px;
 }
 
 .menugrp a {
     padding: .1em 5% .1em;
-    border: 1px dotted red;
     box-sizing: border-box;
 }
 /* This section will change the color of links */
@@ -89,7 +94,7 @@ body{
     
     border: 10px ;
     border-style: double;
-    border-color: hotpink;
+    border-color: blue;
     padding: .1em 5% .1em;
     color: yellow;
     font-style: italic;
@@ -98,6 +103,6 @@ body{
 
 .filltext {
     
-    color: yellow;
+    color: lime;
     font-style: italic;
 }
