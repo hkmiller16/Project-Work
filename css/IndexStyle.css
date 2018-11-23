@@ -23,6 +23,10 @@ body{
     grid-row-gap: 5px;
 }
 
+img { 
+    width: 100%; 
+}
+
 .header{
     grid-column: 1 / span 12;
     border: 10px ;

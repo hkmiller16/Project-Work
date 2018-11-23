@@ -1,49 +1,167 @@
 <!DOCTYPE html>
-<html id="pagebase">
-<meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" media="screen" href="css/PerExpStyle.css" />
-<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
-<script src="js/lightbox-plus-jquery.min.js"></script>
+<html>
 
 <head>
     <title>Personal Experience</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/perexpstyle.css" type="text/css" rel="stylesheet" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+<!--     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+
 </head>
 
-<body>
+<body id="pagebase">
     <div class="menugrp">
         <a href="./index.html">Home</a>
         <a href="./proexp.html">Professional Experience</a>
         <a href="./perexp.html">Personal Experience</a>
-        <a href="./Contact.html">Contact Me</a>
+        <a href="./contact.html">Contact Me</a>
     </div>
 
     <div class="header">
         <h1 class="headertext">Personal Experience</h1>
     </div>
 
-    <div ></div>
-    <div ></div>
+    <div class="span8">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="100000" data-pause="hover"> 
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                    <li data-target="#myCarousel" data-slide-to="7"></li>
+                    <li data-target="#myCarousel" data-slide-to="8"></li>
+                    <li data-target="#myCarousel" data-slide-to="9"></li>
+                    <li data-target="#myCarousel" data-slide-to="10"></li>
+                </ol> 
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" >
+                    <!-- slide 1 -->
+                    <div class="item active">
+                        
+                        <img src="./images/IMG_20130616_095439_181.jpg" alt="Japan" >
+                        <div class="carousel-caption">
+                            <h3>Japan</h3>
+                        </div>
+                            <p class="pictext"> My second deployment was on the 31st MEU. We flew out to Japan then got on the Bonne Homme Richard, a Navy aircraft carrier, and sailed to Austrailia and China over 4-5 months. My second deployment was on the 31st MEU. We flew out to Japan then got on the Bonne Homme Richard, a Navy aircraft carrier, and sailed to Austrailia and China over 4-5 months.</p>
+                    </div>
 
-    <div class="gallery span8">
-        <a href="./images/IMG_20130616_095439_181.jpg" data-lightbox= "mygallery" data-title="title on img 1"><img src="./images/IMG_20130616_095439_181.jpg"></a>
-        <a href="./images/IMG_20130918_083912_014.jpg" data-lightbox= "mygallery" data-title="title on img 2"><img src="./images/IMG_20130918_083912_014.jpg"></a>
-        <a href="./images/IMG_20131129_214954_963.jpg" data-lightbox= "mygallery" data-title="title on img 3"><img src="./images/IMG_20131129_214954_963.jpg"></a>
-        <a href="./images/IMG_20140203_155431.jpg" data-lightbox= "mygallery" data-title="title on img 4"><img src="./images/IMG_20140203_155431.jpg"></a>
-        <a href="./images/IMG_20140610_014437_041.jpg" data-lightbox= "mygallery" data-title="title on img 5"><img src="./images/IMG_20140610_014437_041.jpg"></a>
-        <a href="./images/IMG_20140811_114741_560.jpg" data-lightbox= "mygallery" data-title="title on img 6"><img src="./images/IMG_20140811_114741_560.jpg"></a>
-        <a href="./images/IMG_20141225_134150_204.jpg" data-lightbox= "mygallery" data-title="title on img 7"><img src="./images/IMG_20141225_134150_204.jpg"></a>
-        <a href="./images/IMG_20181018_124920.jpg" data-lightbox= "mygallery" data-title="title on img 8"><img src="./images/IMG_20181018_124920.jpg"></a>
-        <a href="./images/IMG_20181027_095034.jpg" data-lightbox= "mygallery" data-title="title on img 9"><img src="./images/IMG_20181027_095034.jpg"></a>
-        <a href="./images/IMGP0524.JPG" data-lightbox= "mygallery" data-title="title on img 10"><img src="./images/IMGP0524.JPG"></a>
-        <a href="./images/IMGP0584.JPG" data-lightbox= "mygallery" data-title="title on img 11"><img src="./images/IMGP0584.JPG"></a>
+                    <!-- slide 2 -->
+                    <div class="item"> 
+                        <img src="./images/IMG_20130918_083912_014.jpg" alt="Hong Kong">
+                        <div class="carousel-caption">
+                            <h3>Hong Kong</h3>
+                        </div>
+                        <p class="pictext">During the 2nd deployment, I was able to visit Hong Kong</p>
+                    </div>
+                
+                    <!-- slide 3 -->
+                    <div class="item"> 
+                        <img src="./images/IMG_20131129_214954_963.jpg" alt="Concert">
+                        <div class="carousel-caption">
+                            <h3>Music</h3>
+                        </div>
+                        <p class="pictext">I hold no grudges to any type of music. Genres I tend to listen to are Rock, Metal, Electronic, Acoustic, an Folk. This band is The Devil Wears Prada.</p>
+                    </div>
+
+                    <!-- slide 4 -->
+                    <div class="item"> 
+                        <img src="./images/IMG_20140203_155431.jpg" alt="Los Angeles" >
+                        <div class="carousel-caption">
+                            <h3>Chania</h3>
+                        </div>
+                        <p class="pictext"> My second deployment was on the 31st MEU. We flew out to Japan then got on the Bonne Homme Richard, a Navy aircraft carrier, and sailed to Austrailia and China over 4-5 months. My second deployment was on the 31st MEU. We flew out to Japan then got on the Bonne Homme Richard, a Navy aircraft carrier, and sailed to Austrailia and China over 4-5 months. My second deployment was on the 31st MEU. We flew out to Japan then got on the Bonne Homme Richard, a Navy aircraft carrier, and sailed to Austrailia and China over 4-5 months. My second deployment was on the 31st MEU. We flew out to Japan then got on the Bonne Homme Richard, a Navy aircraft carrier, and sailed to Austrailia and China over 4-5 months.</p>
+                    </div>
+                
+                    <!-- slide 5 -->
+                    <div class="item"> 
+                        <img src="./images/IMG_20140610_014437_041.jpg" alt="Chicago">
+                        <div class="carousel-caption">
+                            <h3>Chania</h3>
+                        </div>
+                        <p class="pictext"> My second deployment was on the 31st MEU. We flew out to Japan then got on the Bonne Homme Richard, a Navy aircraft carrier, and sailed to Austrailia and China over 4-5 months. My second deployment was on the 31st MEU. We flew out to Japan then got on the Bonne Homme Richard, a Navy aircraft carrier, and sailed to Austrailia and China over 4-5 months.</p>
+                    </div>
+                
+                    <!-- slide 6 -->
+                    <div class="item"> 
+                        <img src="./images/IMG_20140811_114741_560.jpg" alt="New York">
+                        <div class="carousel-caption">
+                            <h3>Chania</h3>
+                        </div>
+                        <p class="pictext"> My second deployment was on the 31st MEU. We flew out to Japan then got on the Bonne Homme Richard, a Navy aircraft carrier, and sailed to Austrailia and China over 4-5 months. My second deployment was on the 31st MEU. We flew out to Japan then got on the Bonne Homme Richard, a Navy aircraft carrier, and sailed to Austrailia and China over 4-5 months.</p>
+                    </div>
+
+                    <!-- slide 7 -->
+                    <div class="item"> 
+                        <img src="./images/IMG_20141225_134150_204.jpg" alt="New York">
+                        <div class="carousel-caption">
+                            <h3>Chania</h3>
+                        </div>
+                        <p class="pictext"> My second deployment was on the 31st MEU. We flew out to Japan then got on the Bonne Homme Richard, a Navy aircraft carrier, and sailed to Austrailia and China over 4-5 months. My second deployment was on the 31st MEU. We flew out to Japan then got on the Bonne Homme Richard, a Navy aircraft carrier, and sailed to Austrailia and China over 4-5 months.</p>
+                    </div>
+
+                    <!-- slide 8 -->
+                    <div class="item">
+                        <img src="./images/IMG_20181018_124920.jpg" alt="Los Angeles" >
+                        <div class="carousel-caption">
+                            <h3>Chania</h3>
+                        </div>
+                        <p class="pictext"> My second deployment was on the 31st MEU. We flew out to Japan then got on the Bonne Homme Richard, a Navy aircraft carrier, and sailed to Austrailia and China over 4-5 months. My second deployment was on the 31st MEU. We flew out to Japan then got on the Bonne Homme Richard, a Navy aircraft carrier, and sailed to Austrailia and China over 4-5 months.</p>
+                    </div>
+                
+                    <!-- slide 9 -->
+                    <div class="item"> 
+                        <img src="./images/IMG_20181027_095034.jpg" alt="Chicago">
+                        <div class="carousel-caption">
+                            <h3>Chania</h3>
+                        </div>
+                        <p class="pictext"> My second deployment was on the 31st MEU. We flew out to Japan then got on the Bonne Homme Richard, a Navy aircraft carrier, and sailed to Austrailia and China over 4-5 months. My second deployment was on the 31st MEU. We flew out to Japan then got on the Bonne Homme Richard, a Navy aircraft carrier, and sailed to Austrailia and China over 4-5 months.</p>
+                    </div>
+                
+                    <!-- slide 10 -->
+                    <div class="item"> 
+                        <img src="./images/IMGP0524.jpg" alt="New York">
+                        <div class="carousel-caption">
+                            <h3>Chania</h3>
+                        </div>
+                        <p class="pictext"> My second deployment was on the 31st MEU. We flew out to Japan then got on the Bonne Homme Richard, a Navy aircraft carrier, and sailed to Austrailia and China over 4-5 months. My second deployment was on the 31st MEU. We flew out to Japan then got on the Bonne Homme Richard, a Navy aircraft carrier, and sailed to Austrailia and China over 4-5 months.</p>
+                    </div>
+
+                    <!-- slide 11 -->
+                    <div class="item"> 
+                        <img src="./images/IMGP0584.jpg" alt="New York">
+                        <div class="carousel-caption">
+                            <h3>Chania</h3>
+                        </div>
+                        <p class="pictext"> My second deployment was on the 31st MEU. We flew out to Japan then got on the Bonne Homme Richard, a Navy aircraft carrier, and sailed to Austrailia and China over 4-5 months. My second deployment was on the 31st MEU. We flew out to Japan then got on the Bonne Homme Richard, a Navy aircraft carrier, and sailed to Austrailia and China over 4-5 months.</p>
+                    </div>
+
+
+
+                </div>
+                
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+                        
 
     </div>
-
-    <div ></div>
-    <div ></div>
-
 </body>
 
 
